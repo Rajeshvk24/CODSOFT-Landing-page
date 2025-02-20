@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">&lt;/&gt; Landing Page</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+ 
+    <section id="home" class="hero">
+        <div class="hero-content"> 
+            <h1>WEB DESIGN & DEVELOPMENT</h1>
+            <p><em>We are a team of passionate developers, designers,
+                and  strategists  dedicated  to creating innovative web solutions. </em></p>
+                <div>
+                <a href="#about" class="btn btn-white btn-animate">READ MORE</a>
+            </div>
+        </div>
+        <div class="container">
+            <img src="image2.png" alt="Web Design" class="image">
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p><em>We are a team of passionate developers and designers specializing in web development, UI/UX design, and branding solutions.
+            <br>Our mission is to deliver high-quality, user-friendly, and visually stunning websites that help businesses grow and succeed in the digital world. 
+            <br>With years of experience in web development, UI/UX design, and branding, we turn ideas into reality.</em>
+        </p>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Other Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <h3>Web Development</h3>
+                    <img alt src="https://technocometsolutions.com/wp-content/uploads/2020/02/our-servies.gif"
+                     height="200" width="230" >
+                
+                </div>
+                <div class="card">
+                    <h3>UI/UX Design Best Practices</h3>
+                    <img alt src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRApsG-CcFqO8aluq8nWavHxCGz6Ol098_WBg&s"
+                     height="200" width="230">
+                </div>
+
+                <div class="card">
+                    <h3>Artificial Intelligence</h3>
+                    <img alt src=" https://i.pinimg.com/originals/a5/87/eb/a587eb698ff69dad5eff5935acc171e8.gif"
+                     height="200" width="230"> 
+                </div>
+                <div class="card">
+                    <h3>Data Science</h3>
+                    <img alt src="https://jobpakado.com/wp-content/uploads/2024/04/Data-Science.gif"
+                     height="200" width="230"> 
+                </div>
+                <div class="card">
+                    <h3>Machine Learning</h3>
+                    <img alt src="https://miro.medium.com/v2/resize:fit:866/1*h1dUrjhkHzMU46jW1cQjAg.gif"
+                     height="200" width="190"> 
+                </div>
+                <div class="card">
+                    <h3>Java Script</h3>
+                    <img alt src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*-tOldEbfjijxn9VqZeULqg.gif"
+                     height="200" width="230"> 
+                </div>
+            </section>
+      
+
+
+      <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p><em>&#128205; Address: 123 Web Street, Chennai, INDIA<br>
+             &#9993; Email: contact@adcourse.com<br>
+             &#9990; Phone: 9374027563<br>
+             &#127760; Website: www.adcourse.com
+            <br><br>
+            Have a project in mind? Get in touch with us today!</p></em>
+    </section>
+
+    <footer>
+        <p>&copy; 2025  All Rights Reserved.</p>
+    </footer>
+    
+    <button onclick="scrollToTop()" id="scrollBtn" title="Go to top">↑</button>
+    
+    <script>
+       
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    
+        
+        window.onscroll = function() {
+            let scrollBtn = document.getElementById("scrollBtn");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                scrollBtn.style.display = "block";
+            } else {
+                scrollBtn.style.display = "none";
+            }
+        };
+    </script>
+</body>
+</html>
