@@ -8,16 +8,23 @@ Overview:
 Features:
 
    • Navigation Bar: Smooth scrolling to different sections.
+   
    • Hero Section: Introduction to web design and development.
+   
    • About Section: Brief description of the team and their expertise.
+   
    • Services Section: Showcasing various services with animated images.
+   
    • Contact Section: Includes address, email, phone, and website details.
+   
    • Back to Top Button: Smooth scrolling to the top of the page.
 
 Technologies Used:
 
    • HTML: Structuring the web page.
+   
    • CSS: Styling and layout.
+   
    • JavaScript: Interactive features (smooth scroll and back-to-top button).
 
 How to Run the Project:
