@@ -22,17 +22,10 @@ Technologies Used:
 
 How to Run the Project:
 
-1.Clone the Repository
-
-   git clone https://github.com/Rajeshvk24/CODSOFT-Landing-page.
-
-2.Navigate to the Project Folder
-
-cd CODSOFT-Landing-page
-
-3.Open the HTML File
-
-Open index.html in a web browser.
+   1.Clone the repository:
+     git clone https://github.com/Rajeshvk24/CODSOFT-Landing-page
+   
+   2.Open index.html in your browser.
 
 Screenshot:
 
